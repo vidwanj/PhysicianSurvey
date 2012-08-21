@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="f752d821-abf7-46bf-ae1d-59ab2c50f0a4" solutionId="f752d821-abf7-46bf-ae1d-59ab2c50f0a4" resetWebServer="false" name="PhysicianSurvey" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="6a441c48-5cf9-42d3-8e88-219433f335c0" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="5efac9da-cf6e-4bc1-86ed-ab719f48eb3c" />
+  </projectItems>
+</package>
