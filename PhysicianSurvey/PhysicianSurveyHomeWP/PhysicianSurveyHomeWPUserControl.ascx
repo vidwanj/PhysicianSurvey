@@ -6,7 +6,7 @@
 <%@ Import Namespace="Microsoft.SharePoint" %> 
 <%@ Register Tagprefix="WebPartPages" Namespace="Microsoft.SharePoint.WebPartPages" Assembly="Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <%@ Control Language="C#" AutoEventWireup="true" CodeBehind="PhysicianSurveyHomeWPUserControl.ascx.cs" Inherits="PhysicianSurvey.PhysicianSurveyHomeWP.PhysicianSurveyHomeWPUserControl" %>
-<style type="text/css">
+<style type="text/css"> 
 .container 
 {
 	BACKGROUND-COLOR: #fff; WIDTH: 960px; BACKGROUND-REPEAT: repeat-y; BACKGROUND-POSITION: left top
@@ -38,10 +38,10 @@ H3 {
 <p>Thank you for your part in helping us build something that makes your online experience a little easier and more productive. If you have any questions, send them to <a href="mailto:MyTexasHealth@TexasHealth.org">MyTexasHealth@TexasHealth.org</a>. </p>
 </div>
 </div>
-    <asp:ImageButton ID="imgBtnStartNow" 
-        ImageUrl="~/_layouts/PhysicianSurvey/images/StartNow.png" Visible="false" 
-        runat="server" />
-    <asp:ImageButton ID="imgBtnContinue" ImageUrl="~/_layouts/PhysicianSurvey/images/continue.png" Visible="false" runat="server" />
-    <asp:ImageButton ID="imgBtnView" Visible="false" ImageUrl="~/_layouts/PhysicianSurvey/images/view.png" runat="server" /></br>
-    <asp:Label ID="lblError" Visible="false" ForeColor="Red"  runat="server"></asp:Label>
+	<asp:ImageButton ID="imgBtnStartNow" 
+		ImageUrl="~/_layouts/PhysicianSurvey/images/StartNow.png" Visible="false" 
+		runat="server" />
+	<asp:ImageButton ID="imgBtnContinue" ImageUrl="~/_layouts/PhysicianSurvey/images/continue.png" Visible="false" runat="server" />
+	<asp:ImageButton ID="imgBtnView" Visible="false" ImageUrl="~/_layouts/PhysicianSurvey/images/view.png" runat="server" /></br>
+	<asp:Label ID="lblError" Visible="false" ForeColor="Red"  runat="server"></asp:Label>
 </div>
